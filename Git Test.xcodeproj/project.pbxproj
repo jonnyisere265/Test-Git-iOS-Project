@@ -21,6 +21,7 @@
 		CE0AC33F192B813700732552 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0AC321192B813700732552 /* UIKit.framework */; };
 		CE0AC347192B813700732552 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE0AC345192B813700732552 /* InfoPlist.strings */; };
 		CE0AC349192B813700732552 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC348192B813700732552 /* Git_TestTests.m */; };
+		CE0AC354192B83E500732552 /* JMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC353192B83E500732552 /* JMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CE0AC344192B813700732552 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		CE0AC346192B813700732552 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE0AC348192B813700732552 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		CE0AC352192B83E500732552 /* JMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMTest.h; path = ../JMTest.h; sourceTree = "<group>"; };
+		CE0AC353192B83E500732552 /* JMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMTest.m; path = ../JMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		CE0AC323192B813700732552 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				CE0AC352192B83E500732552 /* JMTest.h */,
+				CE0AC353192B83E500732552 /* JMTest.m */,
 				CE0AC32C192B813700732552 /* JMAppDelegate.h */,
 				CE0AC32D192B813700732552 /* JMAppDelegate.m */,
 				CE0AC32F192B813700732552 /* Main.storyboard */,
@@ -252,6 +257,7 @@
 			files = (
 				CE0AC32A192B813700732552 /* main.m in Sources */,
 				CE0AC334192B813700732552 /* JMViewController.m in Sources */,
+				CE0AC354192B83E500732552 /* JMTest.m in Sources */,
 				CE0AC32E192B813700732552 /* JMAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
